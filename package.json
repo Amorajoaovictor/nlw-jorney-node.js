@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tsconfig/node21": "^21.0.3"
+    "@tsconfig/node21": "^21.0.3",
+    "@types/nodemailer": "^6.4.15"
   },
   "dependencies": {
     "@prisma/client": "^5.16.1",
