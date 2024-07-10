@@ -1,0 +1,28 @@
+{
+  "name": "nlw-jorney-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node21": "^21.0.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "@types/node": "^20.14.10",
+    "dayjs": "^1.11.11",
+    "fastify": "^4.28.1",
+    "fastify-type-provider-zod": "^2.0.0",
+    "nodemailer": "^6.9.14",
+    "prisma": "^5.16.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "zod": "^3.23.8"
+  }
+}
